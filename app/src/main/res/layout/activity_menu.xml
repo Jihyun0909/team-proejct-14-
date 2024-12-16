@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User 정보" />
+
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="운동 및 식단 기록"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="운동 및 식단 추천"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_metric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="건강 지표 측정 및 관리"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
